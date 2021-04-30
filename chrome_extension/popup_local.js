@@ -14,7 +14,7 @@ function copy(text) {
 }
 
 function shorten_url(url_long) {
-	var accessToken = "aabad7271eb08adfeb1937e3909a0c8cfebdca7b";
+	var accessToken = "";
 	var params = {
         "url_long" : url_long           
     };
