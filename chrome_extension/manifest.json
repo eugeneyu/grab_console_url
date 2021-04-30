@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "version": "1.1",
+  "name": "GCP URL Grabber",
+  "description": "Convert and copy current GCP console URL",
+  "icons":
+  {
+    "16": "images/icon_16.png", 
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  },
+  "browser_action":
+  {
+    "default_icon": "images/icon_128.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs","clipboardWrite","https://*/*","identity","identity.email"],
+  "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com; object-src 'self'"
+}

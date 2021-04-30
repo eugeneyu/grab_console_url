@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+       	<title>URL Grabber</title>
+       	<script src="jquery-3.6.0.min.js">
+       	</script>
+       	<script src="popup.js">
+       	</script>
+       	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+       	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<p class="top_text" id = "confirm">Full URL Copied!</p> 
+	<table>
+      	<tr>
+      		<td><p class="prompt_text">Project ID</p> </td>
+      		<td><textarea class="textarea" id = "project_id">PPPID</textarea></td></td>
+      		<td><button class="clipboard" data-clipboard-target="#project_id">
+    			<img src="images/copy_32.svg" alt="Copy to clipboard">
+			</button></td>
+		</tr>
+		<tr>
+			<td><p class="prompt_text">Short URL</p> </td>
+      		<td><textarea class="textarea" id = "url_short">Generating...</textarea></td>
+      		<td><button class="clipboard" data-clipboard-target="#url_short">
+    			<img src="images/copy_32.svg" alt="Copy to clipboard">
+			</button></td>
+		</tr>
+	</table>
+</body>
+</html>

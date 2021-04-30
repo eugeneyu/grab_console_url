@@ -1,0 +1,50 @@
+table {
+  width: 330px;
+}
+
+.clipboard {
+  border: none;
+  padding: 0;
+  background: none;
+  border-radius: 10%;
+}
+
+.clipboard:hover {
+  background: #F2F5FD;
+}
+
+.clipboard:active {
+  background: #add8e6;
+}
+
+.textarea {
+  resize: none;
+  border-radius: 5px;
+  padding-left: 8px;
+  padding-top: 8px;
+  display: block;
+  width: 190px;
+  height: 20px;
+  border:solid 1px #bebebe; 
+  color: #171717;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.top_text {
+	color: #303030;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-size: 120%;
+	height: 30px;
+	width: 330px;
+	text-align: center;
+	margin: 0;
+}
+
+.prompt_text {
+	color: #7a7a7a;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
